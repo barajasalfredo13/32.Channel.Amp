@@ -8,7 +8,7 @@
   
 ### ::: Resources :::
   
-:: Board Referenced ::
+:: Board Referenced ::  
 ![CR-150-R5](https://www.cremat.com/CR-150-R5.pdf)  
   
 :: Amp Dimensions ::  
