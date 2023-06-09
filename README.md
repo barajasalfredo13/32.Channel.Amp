@@ -18,4 +18,4 @@
 [IFDGG501056AX](https://www.lesker.com/feedthroughs/instrument-feedthroughs-mpdt-subd/part/ifdgg501056ax)  
   
 :: Female Pins Used for Design ::  
-[Recommended Female Pin Socket](https://www.digikey.com/en/products/detail/adam-tech/SMC-1-08-1-GT/9830825)
+[SMC-1-08-1-GT](https://www.digikey.com/en/products/detail/adam-tech/SMC-1-08-1-GT/9830825)
