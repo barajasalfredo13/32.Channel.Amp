@@ -77,7 +77,4 @@
 
   (net 0 "")
 
-  (gr_circle (center 150.055 100.17) (end 213.785 102.795)
-    (stroke (width 0.2) (type default)) (fill none) (layer "F.Cu") (tstamp dd0f71d6-5ab2-4a42-a668-9e1a6da1168f))
-
 )
