@@ -17,5 +17,6 @@
 :: Expected Connector ::  
 [IFDGG501056AX](https://www.lesker.com/feedthroughs/instrument-feedthroughs-mpdt-subd/part/ifdgg501056ax)  
   
-:: Female Pins Used for Design ::  
+:: Sockets Used ::  
 [SMC-1-08-1-GT](https://www.digikey.com/en/products/detail/adam-tech/SMC-1-08-1-GT/9830825)
+[D-SUB 09665627811](https://www.digikey.com/en/products/detail/harting/09665627811/4322749)
