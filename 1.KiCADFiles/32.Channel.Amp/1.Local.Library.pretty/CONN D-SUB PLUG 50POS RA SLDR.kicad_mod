@@ -19,6 +19,8 @@
     (stroke (width 0.01) (type default)) (fill none) (layer "Edge.Cuts") (tstamp f00d9698-6c00-412e-b4d8-a6113c59d89d))
   (fp_line (start -33.5 0) (end -33.5 -7)
     (stroke (width 0.1) (type default)) (layer "User.8") (tstamp 48ed0e9a-3c35-479e-8470-92793257415b))
+  (fp_line (start -30.5 0) (end 30.5 0)
+    (stroke (width 0.05) (type default)) (layer "User.8") (tstamp 1badeb24-bced-470b-bdb1-ddc47775caed))
   (fp_rect (start 33.5 12.54) (end -33.5 -7)
     (stroke (width 0.1) (type default)) (fill none) (layer "User.8") (tstamp 2f19a81c-8544-4f5e-8605-1f0ca489b7f3))
   (fp_circle (center 0 0) (end 0.1 0)
