@@ -1007,7 +1007,7 @@
     (stroke (width 0.15) (type default)) (layer "User.8") (tstamp b6ee70c4-9512-44e9-aa8c-98d82a08a1f8))
   (gr_circle (center 53.111459 22.545) (end 53.361459 22.545)
     (stroke (width 0.15) (type default)) (fill none) (layer "User.8") (tstamp ef0d53c9-ec25-4ba4-ad64-d001f684fc6f))
-  (gr_text "June 2023\nAlfredo Barajas Enriquez\n" (at 63.515 47.975) (layer "B.SilkS") (tstamp d12ac21f-2c85-4069-b6fd-396fe78ffe85)
+  (gr_text "Single Channel Amp v.1\nJune 2023\nAlfredo Barajas Enriquez\n" (at 64.25 48.4) (layer "B.SilkS") (tstamp d12ac21f-2c85-4069-b6fd-396fe78ffe85)
     (effects (font (size 1.5 1.5) (thickness 0.25) bold) (justify left bottom mirror))
   )
   (gr_text "+11" (at 39.64 23.37) (layer "F.SilkS") (tstamp 03633512-d9b2-4688-8429-6bf8e33171b4)
