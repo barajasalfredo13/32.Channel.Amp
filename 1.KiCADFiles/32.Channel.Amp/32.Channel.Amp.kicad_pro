@@ -443,7 +443,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../../../../Temp/32.Channel.Amp.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
