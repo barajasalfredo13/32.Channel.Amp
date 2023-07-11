@@ -760,7 +760,7 @@
     (stroke (width 0) (type default))
     (uuid 064e495f-d12b-4d50-9db1-4bf41090766a)
   )
-  (wire (pts (xy 99.06 86.36) (xy 99.06 83.82))
+  (wire (pts (xy 99.06 87.63) (xy 99.06 83.82))
     (stroke (width 0) (type default))
     (uuid 0bad57e8-f434-4010-a36d-21c35d34440d)
   )
@@ -1012,6 +1012,36 @@
     )
   )
 
+  (symbol (lib_id "power:GND1") (at 125.73 57.15 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 19dae49d-f8a6-4f43-bde6-559c4689b6ba)
+    (property "Reference" "#PWR011" (at 132.08 57.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND1" (at 129.54 57.15 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (at 125.73 57.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 125.73 57.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d2512cc1-62e8-476d-9fd1-2eb1e1bec2a0))
+    (instances
+      (project "Single.Channel.Amp"
+        (path "/08e8a37f-dc9c-4c12-ad59-7a5b52f61be7"
+          (reference "#PWR011") (unit 1)
+        )
+      )
+      (project "32.Channel.Amp"
+        (path "/13fa3f73-84bf-4039-afd1-d465267c6ba6"
+          (reference "#PWR08") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:C") (at 99.06 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 25efbc6e-e887-43f5-af03-3abb7ec38be0)
@@ -1203,6 +1233,36 @@
     )
   )
 
+  (symbol (lib_id "power:GND") (at 99.06 87.63 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 3550449c-f3e0-485b-a83f-05a119b29b9f)
+    (property "Reference" "#PWR02" (at 99.06 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 99.06 92.71 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 99.06 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 99.06 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 77f92be5-063a-4e96-a600-4d2d17bd2d99))
+    (instances
+      (project "Single.Channel.Amp"
+        (path "/08e8a37f-dc9c-4c12-ad59-7a5b52f61be7"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+      (project "32.Channel.Amp"
+        (path "/13fa3f73-84bf-4039-afd1-d465267c6ba6"
+          (reference "#PWR09") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Connector:Conn_Coaxial") (at 118.11 57.15 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 356a51d3-575b-4492-a162-b7a85a94ee5b)
@@ -1264,36 +1324,6 @@
     )
   )
 
-  (symbol (lib_id "power:GND1") (at 99.06 119.38 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 5a74ef5e-f246-4cfa-bd56-4c44b606a92e)
-    (property "Reference" "#PWR011" (at 99.06 125.73 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND1" (at 99.06 124.46 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 99.06 119.38 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 99.06 119.38 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 207d3257-8365-4371-917e-f8ab0e5e7cb5))
-    (instances
-      (project "Single.Channel.Amp"
-        (path "/08e8a37f-dc9c-4c12-ad59-7a5b52f61be7"
-          (reference "#PWR011") (unit 1)
-        )
-      )
-      (project "32.Channel.Amp"
-        (path "/13fa3f73-84bf-4039-afd1-d465267c6ba6"
-          (reference "#PWR08") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Diode:1N4148W") (at 46.99 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6a8d8025-c80f-489e-9214-4b09f73ca0bc)
@@ -1326,6 +1356,36 @@
       (project "32.Channel.Amp"
         (path "/13fa3f73-84bf-4039-afd1-d465267c6ba6"
           (reference "D2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 99.06 119.38 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6ead61b9-d041-4e0a-97bf-e3c7a8d141e8)
+    (property "Reference" "#PWR02" (at 99.06 125.73 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 99.06 124.46 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 99.06 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 99.06 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2cd2f50f-62d5-4a82-9872-d0fde247f4d1))
+    (instances
+      (project "Single.Channel.Amp"
+        (path "/08e8a37f-dc9c-4c12-ad59-7a5b52f61be7"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+      (project "32.Channel.Amp"
+        (path "/13fa3f73-84bf-4039-afd1-d465267c6ba6"
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -1420,36 +1480,6 @@
       (project "32.Channel.Amp"
         (path "/13fa3f73-84bf-4039-afd1-d465267c6ba6"
           (reference "J1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 113.03 104.14 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 8f885f94-3abd-4b16-8ea9-7d72acc55cef)
-    (property "Reference" "#PWR08" (at 113.03 110.49 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 113.03 109.22 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 113.03 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 113.03 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 4db8daf7-32d1-41b6-9dbd-aadac33bcdde))
-    (instances
-      (project "Single.Channel.Amp"
-        (path "/08e8a37f-dc9c-4c12-ad59-7a5b52f61be7"
-          (reference "#PWR08") (unit 1)
-        )
-      )
-      (project "32.Channel.Amp"
-        (path "/13fa3f73-84bf-4039-afd1-d465267c6ba6"
-          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -1677,36 +1707,6 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 125.73 57.15 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid cba002f0-e4e9-4180-a1b8-eef8d91c6b7c)
-    (property "Reference" "#PWR09" (at 132.08 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 129.54 57.15 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "" (at 125.73 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 125.73 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid be78e95b-7175-4c47-9e3d-a44fb7747bee))
-    (instances
-      (project "Single.Channel.Amp"
-        (path "/08e8a37f-dc9c-4c12-ad59-7a5b52f61be7"
-          (reference "#PWR09") (unit 1)
-        )
-      )
-      (project "32.Channel.Amp"
-        (path "/13fa3f73-84bf-4039-afd1-d465267c6ba6"
-          (reference "#PWR012") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 80.01 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dba5bba0-0a57-4944-a230-942a1d80dead)
@@ -1769,6 +1769,36 @@
     )
   )
 
+  (symbol (lib_id "power:GND1") (at 113.03 104.14 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e68df9f9-9abe-4fae-870b-b2383e1f739a)
+    (property "Reference" "#PWR011" (at 113.03 110.49 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND1" (at 113.03 109.22 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 113.03 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 113.03 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 10dce4e2-964f-4519-8acf-bd54839727b0))
+    (instances
+      (project "Single.Channel.Amp"
+        (path "/08e8a37f-dc9c-4c12-ad59-7a5b52f61be7"
+          (reference "#PWR011") (unit 1)
+        )
+      )
+      (project "32.Channel.Amp"
+        (path "/13fa3f73-84bf-4039-afd1-d465267c6ba6"
+          (reference "#PWR07") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Diode:BZV55B7V5") (at 63.5 100.33 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e6dae024-d965-49f8-9512-25d3efa6bb9c)
@@ -1826,36 +1856,6 @@
       (project "32.Channel.Amp"
         (path "/13fa3f73-84bf-4039-afd1-d465267c6ba6"
           (reference "R2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND1") (at 99.06 86.36 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid ef3c7772-1a86-48e1-9b1f-3d35bab1eb17)
-    (property "Reference" "#PWR012" (at 99.06 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND1" (at 99.06 91.44 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 99.06 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 99.06 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9136c2a4-992b-4965-91d1-b1c77020e4b1))
-    (instances
-      (project "Single.Channel.Amp"
-        (path "/08e8a37f-dc9c-4c12-ad59-7a5b52f61be7"
-          (reference "#PWR012") (unit 1)
-        )
-      )
-      (project "32.Channel.Amp"
-        (path "/13fa3f73-84bf-4039-afd1-d465267c6ba6"
-          (reference "#PWR07") (unit 1)
         )
       )
     )
