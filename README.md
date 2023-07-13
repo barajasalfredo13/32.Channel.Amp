@@ -9,7 +9,8 @@
   - [Test Board]  
   - [Cell Board]  
 - 🔲 [32 Cell Channel Receiver Board]  
-  - [Cell Receiver Board]  
+  - [Cell Receiver Board]
+  - [Cell Tester]
   - [Capacitance Fix]  
 - 🔲 [Resources]  
   - [ Board Reference ]  
@@ -55,9 +56,18 @@ Dimensions : 20 x 40 mm
 
 -------------------
 ## 🔲 :: 32 Cell Channel Receiver Board ::
+<img src="./z.ReadMeImages/32ChannelPreview3.png" width="30%">  <img src="./z.ReadMeImages/32ChannelPreview.png" width="30%">   
+File Dimensions : 177 x 142 mm  
+  
+  
 ### : Cell Receiver Board :  
-<img src="./z.ReadMeImages/32ChannelPreview.png" width="50%">
-Dimensions : 142 x 139 mm  
+<img src="./z.ReadMeImages/32ChannelPreview2.png" width="60%">   
+Dimensions : 142 x 142 mm   
+   
+### : Cell Tester :  
+Cell Tester allows for easy and quick cell testing.  
+<img src="./z.ReadMeImages/CellTester.png" width="25%">  
+
   
 ### : Capacitance Fix :  
 Different trace length create variances on capacitance. To correct this variance the width of each trace has been modified using the following method.  
