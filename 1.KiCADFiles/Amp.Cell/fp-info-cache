@@ -1,32 +1,18 @@
-21868627945769706
-1.Local.Library
-CONN D-SUB PLUG 50POS RA SLDR
-
-
-0
-50
-50
-1.Local.Library
-MMBT3904
+21865250475266863
+1.Logos
+Panel.Joint
 
 
 0
 0
 0
-1.Local.Library
-MMBT3906
+1.Logos
+UTA
 
 
 0
 0
 0
-1.Local.Library
-SMC-1-08-1-GT
-
-
-0
-8
-5
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
