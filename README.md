@@ -56,7 +56,7 @@ Dimensions : 20 x 40 mm
 
 -------------------
 ## 🔲 :: 32 Cell Channel Receiver Board ::
-<img src="./z.ReadMeImages/32ChannelPreview3.png" width="30%">  <img src="./z.ReadMeImages/32ChannelPreview.png" width="30%">   
+<img src="./z.ReadMeImages/32ChannelPreview3.png" width="50%">  <img src="./z.ReadMeImages/32ChannelPreview.png" width="50%">   
 File Dimensions : 177 x 142 mm  
   
   
