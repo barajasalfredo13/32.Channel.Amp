@@ -1,4 +1,4 @@
-21868628322493706
+21872006874948761
 1.Local.Library
 CONN D-SUB PLUG 50POS RA SLDR
 
@@ -27,6 +27,20 @@ SMC-1-08-1-GT
 0
 8
 5
+1.Logos
+Panel.Joint
+
+
+0
+0
+0
+1.Logos
+UTA
+
+
+0
+0
+0
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
