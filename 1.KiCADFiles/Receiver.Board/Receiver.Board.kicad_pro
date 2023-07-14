@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.1,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.5,
+          "height": 0.85,
+          "width": 0.85
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -172,7 +172,8 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.2
       ],
       "via_dimensions": [
         {
@@ -441,7 +442,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "../../../../../",
       "specctra_dsn": "",
       "step": "../../../../../Temp/32.Channel.Amp.step",
       "vrml": ""
@@ -484,7 +485,7 @@
   },
   "sheets": [
     [
-      "13fa3f73-84bf-4039-afd1-d465267c6ba6",
+      "5c118925-6e11-43f5-84b2-fd47e71fc3cb",
       ""
     ]
   ],
