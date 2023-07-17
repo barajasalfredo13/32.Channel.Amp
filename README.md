@@ -57,12 +57,12 @@ Dimensions : 20 x 40 mm
 -------------------
 ## 🔲 :: 32 Cell Channel Receiver Board ::
 <img src="./z.ReadMeImages/32ChannelPreview3.png" width="45%">  <img src="./z.ReadMeImages/32ChannelPreview.png" width="45%">   
-File Dimensions : 177 x 142 mm  
+File Dimensions : 177 x 152 mm  
   
   
 ### : Cell Receiver Board :  
 <img src="./z.ReadMeImages/32ChannelPreview2.png" width="60%">   
-Dimensions : 142 x 142 mm   
+Dimensions : 142 x 152 mm   
    
 ### : Cell Tester :  
 Cell Tester allows for easy and quick cell testing.  
