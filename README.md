@@ -82,7 +82,7 @@ Different trace length create variances on capacitance. To correct this variance
 4. This ratio is then used to multiply the base width, which will result in the width the shorter trace.  
 
 : Excel Calculator : (Included in the Repository)    
-<img src="./z.ReadMeImages/Capacitance.png" width="40%">    
+<img src="./z.ReadMeImages/Capacitance.png" width="110%">    
   
 ## 🔲 ::: Resources :::    
 :: Board Referenced ::  
