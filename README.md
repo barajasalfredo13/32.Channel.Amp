@@ -73,13 +73,15 @@ Cell Tester allows for easy and quick cell testing.
 Different trace length create variances on capacitance. To correct this variance the width of each trace has been modified using the following method.  
 <img src="./z.ReadMeImages/CapacitanceDemo.png" width="80%">  
 
-1. The longest trace length is set to a predifined width (in this case, I have selected 0.1 mm, ***JLCPCB minimum width is 0.09 mm )  and the length is used as a base  
-
-2. The length of another trace is then summed in a similar matter.  
-
-3. The length of the base trace is then compared to the shorter length, such that it creates a ratio between them.  
-
-4. This ratio is then used to multiply the base width, which will result in the width the shorter trace.  
+- [(Vertical Aspect) In reference to the height of the trace and what it contributes to the total capacitance and why I neglected this measurement]  
+   - [The distance between the side of the traces and the adjacent ground plane are equivalent on all]  
+   - [The distance between the side of the traces and the adjacent ground plane is greatly larger than the height of the traces]  
+     - [Conclusion: There is variance in the side capacitance but it's contribution is extremely small compared to the next argument]  
+- [(Horizontal Aspect) In reference to the width of the trace and what it contributes to the total capacitance]  
+   - [Since I used ratios, the surface area of each horizontal plane will remain equivalent]  
+   - [The surface area of this aspect is greatly larger than the vertical contribution]  
+   - [The distance between this trace and the ground layer is equivalent on all traces]  
+     - [Conclusion: The horizontal aspect is equivalent on all traces and it is greatly larger than the vertical contribution]  
 
 : Excel Calculator : (Included in the Repository)    
 <img src="./z.ReadMeImages/Capacitance.png" width="110%">    
