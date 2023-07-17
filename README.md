@@ -50,7 +50,7 @@
 Dimensions :  20 x 60 mm  
 
 ### :: Cell Board ::  
-<img src="./z.ReadMeImages/Cell1.png" width="16%"> <img src="./z.ReadMeImages/Cell2.png" width="15%"> <img src="./z.ReadMeImages/Cell3.png" width="15%">  
+<img src="./z.ReadMeImages/Cell1.png" width="16%"> <img src="./z.ReadMeImages/Cell2.png" width="15.5%"> <img src="./z.ReadMeImages/Cell3.png" width="16%">  
 Dimensions : 20 x 40 mm  
 
 
