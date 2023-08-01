@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 6,
+    "active_layer": 37,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -64,11 +64,11 @@
       39,
       40
     ],
-    "visible_layers": "e7fffdf_ffffffff",
+    "visible_layers": "e7fffff_ffffff82",
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "12.Layer.ReceiverBoard.kicad_prl",
+    "filename": "8.Layer.Receiver.No.Wrap.kicad_prl",
     "version": 3
   },
   "project": {

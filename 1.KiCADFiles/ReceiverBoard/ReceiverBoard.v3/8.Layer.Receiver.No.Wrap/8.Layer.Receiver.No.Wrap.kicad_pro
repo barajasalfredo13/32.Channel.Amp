@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 1.75,
-          "width": 1.3
+          "drill": 1.1,
+          "height": 1.524,
+          "width": 1.524
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -172,8 +172,7 @@
         }
       ],
       "track_widths": [
-        0.0,
-        0.2
+        0.0
       ],
       "via_dimensions": [
         {
@@ -394,7 +393,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
-      "simulation_model_issue": "error",
+      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -403,12 +402,10 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": [
-      "project.library"
-    ]
+    "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "4.Layer.Receiver.Board.kicad_pro",
+    "filename": "8.Layer.Receiver.No.Wrap.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -442,9 +439,9 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "../../../../../",
+      "netlist": "../10.Layer.ReceiverBoard/",
       "specctra_dsn": "",
-      "step": "../../../../../Temp/32.Channel.Amp.step",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -473,6 +470,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
@@ -485,7 +490,7 @@
   },
   "sheets": [
     [
-      "5c118925-6e11-43f5-84b2-fd47e71fc3cb",
+      "3742f3ee-71f9-4972-b5e8-a5abd09af2fb",
       ""
     ]
   ],
