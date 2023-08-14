@@ -27,15 +27,15 @@
 ### : Component List :  
 : Diodes :  
 [ 1N4148W ](https://www.digikey.com/en/products/detail/smc-diode-solutions/1N4148W/6022450)  
-[ MMSZ5236B-7-F ](https://www.digikey.com/en/products/detail/diodes-incorporated/MMSZ5236B-7-F/717790)  
+[ BZT52H-A7V5-QX ](https://www.digikey.com/en/products/detail/nexperia-usa-inc/BZT52H-A7V5-QX/17295939)  
 : Transistors :  
 [ MMBT3904 ](https://www.digikey.com/en/products/detail/anbon-semiconductor-int-l-limited/MMBT3904/17284363)  
 [ MMBT3906 ](https://www.digikey.com/en/products/detail/nte-electronics-inc/MMBT3906/11652283)  
 : Capacitor :  
-[ CL10A106MP8NNNC ](https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A106MP8NNNC/3887529)  
+[ GRM188C81C106MA73J ](https://www.digikey.com/en/products/detail/murata-electronics/GRM188C81C106MA73J/4905316)  
 : Resistors :  
 [ RC0402JR-071KL ](https://www.digikey.com/en/products/detail/yageo/RC0402JR-071KL/726408)  
-[ RL0510S-4R7-F ](https://www.digikey.com/en/products/detail/susumu/RL0510S-4R7-F/567247)  
+[ 311-4.7GRCT-ND ](https://www.digikey.com/en/products/detail/yageo/RC0603JR-074R7L/726784)  
 : Cremat Holder :   
 [ SMC-1-08-1-GT ](https://www.digikey.com/en/products/detail/adam-tech/SMC-1-08-1-GT/9830825)  
 : DSUB Connector :  
