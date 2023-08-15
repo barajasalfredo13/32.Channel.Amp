@@ -2,8 +2,7 @@
   
 -----------------  
 ## Table of Contents
-- 🔲 [Tile Boards]  
-  - [Single Channel Boards]  
+- 🔲 [Tile Boards]   
   - [Digi-Key Component List]
   - [Schematic]  
   - [Test Board]  
@@ -18,11 +17,7 @@
   - [ Connections ]
 
 ----------------
-## 🔲 ::: Tile Boards :::  
-### :: Single Channel Boards ::  
-**: Layers :** 4 Layer PCB Board  [ Power Layer , Power Ground , Signal Ground, Signal Layer ]  
-<img src="./z.ReadMeImages/BoardStackUp.png" width="75%">  
-  
+## 🔲 ::: Tile Boards :::   
 ### : Component List :  
 : Diodes :  
 [ 1N4148W ](https://www.digikey.com/en/products/detail/smc-diode-solutions/1N4148W/6022450)  
