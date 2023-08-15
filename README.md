@@ -48,11 +48,11 @@
 <img src="./z.ReadMeImages/TestBoard1.png" width="15%"> <img src="./z.ReadMeImages/TestBoard2.png" width="15%"> <img src="./z.ReadMeImages/TestBoard3.png" width="15%">  
   
 ### :: Cell Board ::  
-<img src="./z.ReadMeImages/Cell1.png" width="16%"> <img src="./z.ReadMeImages/Cell2.png" width="15.5%"> <img src="./z.ReadMeImages/Cell3.png" width="16%">  
+<img src="./z.ReadMeImages/Cell1.png" width="16%"> <img src="./z.ReadMeImages/Cell2.png" width="16.2%"> <img src="./z.ReadMeImages/Cell3.png" width="15.8%">  
   
 -------------------
 ## 🔲 :: 32 Cell Channel Receiver Board ::
-<img src="./z.ReadMeImages/32ChannelPreview3.png" width="45%">  <img src="./z.ReadMeImages/32ChannelPreview.png" width="45%">   
+<img src="./z.ReadMeImages/32ChannelPreview3.png" width="45%">  
   
 ### : Cell Receiver Board :  
 <img src="./z.ReadMeImages/32ChannelPreview2.png" width="60%">   
