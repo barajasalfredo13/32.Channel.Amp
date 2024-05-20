@@ -67,6 +67,12 @@
     "visible_layers": "e7fffff_ffffffff",
     "zone_display_mode": 0
   },
+  "git": {
+    "repo_password": "",
+    "repo_type": "",
+    "repo_username": "",
+    "ssh_key": ""
+  },
   "meta": {
     "filename": "8.Layer.Receiver.Wrapped.kicad_prl",
     "version": 3
